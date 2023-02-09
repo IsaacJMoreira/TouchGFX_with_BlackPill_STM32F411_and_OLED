@@ -1,0 +1,149 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "MainScreen",
+        "CanvasBufferSize": 1920,
+        "Components": [
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "background1",
+            "Width": 128,
+            "Height": 64,
+            "CustomContainerDefinitionName": "Background"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "topBar1",
+            "Width": 128,
+            "Height": 16,
+            "CustomContainerDefinitionName": "TopBar"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Tittle",
+            "Width": 128,
+            "Height": 16,
+            "TextId": "__SingleUse_6PS8",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "Circle",
+            "Name": "circle1",
+            "X": 48,
+            "Y": 22,
+            "Width": 32,
+            "Height": 32,
+            "CenterX": 16.0,
+            "CenterY": 16.0,
+            "Radius": 16.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 57,
+            "Y": 24,
+            "Width": 15,
+            "Height": 28,
+            "TextId": "__SingleUse_GJ31",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          }
+        ],
+        "Interactions": []
+      }
+    ],
+    "CustomContainerDefinitions": [
+      {
+        "Name": "Background",
+        "Width": 128,
+        "Height": 64,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "BackGround",
+            "Width": 128,
+            "Height": 64,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "TopBar",
+        "Width": 128,
+        "Height": 16,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "TopBar",
+            "Width": 128,
+            "Height": 16
+          }
+        ],
+        "Interactions": []
+      }
+    ],
+    "Name": "MyApplication",
+    "Resolution": {
+      "Width": 128,
+      "Height": 64
+    },
+    "SelectedColorDepth": 1,
+    "StartupScreenName": "MainScreen",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      1
+    ],
+    "AvailableLCDs": {
+      "1": "LCD1bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 128,
+        "Height": 64
+      }
+    ],
+    "PhysicalButtons": [],
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32F4",
+    "SubFamily": "STM32F411",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m4",
+    "ProjectFile": "../CursorNavigator.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": []
+  },
+  "Version": "4.21.1"
+}
