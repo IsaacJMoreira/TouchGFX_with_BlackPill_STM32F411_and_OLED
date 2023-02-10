@@ -10,6 +10,7 @@ KEEP extern const uint32_t indicesGb[] TEXT_LOCATION_FLASH_ATTRIBUTE;
 // Remap all strings
 TEXT_LOCATION_FLASH_PRAGMA
 KEEP extern const uint32_t indicesGb[] TEXT_LOCATION_FLASH_ATTRIBUTE = {
-    22, // T___SINGLEUSE_GJ31: "1"
-    0   // T___SINGLEUSE_6PS8: "STM32F411 - BlackPill"
+    23, // T_FPSWILDCARD: "0"
+    21, // T___SINGLEUSE_WK2R: "<>"
+    0   // T___SINGLEUSE_6PS8: "TouchGFX + BlackPill"
 };

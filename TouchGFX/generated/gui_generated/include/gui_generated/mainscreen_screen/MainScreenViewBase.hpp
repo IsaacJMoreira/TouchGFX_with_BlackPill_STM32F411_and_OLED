@@ -11,8 +11,7 @@
 #include <gui/containers/Background.hpp>
 #include <gui/containers/TopBar.hpp>
 #include <touchgfx/widgets/TextArea.hpp>
-#include <touchgfx/widgets/canvas/Circle.hpp>
-#include <touchgfx/widgets/canvas/PainterBW.hpp>
+#include <touchgfx/widgets/TextAreaWithWildcard.hpp>
 
 class MainScreenViewBase : public touchgfx::View<MainScreenPresenter>
 {
@@ -33,17 +32,15 @@ protected:
     Background background1;
     TopBar topBar1;
     touchgfx::TextArea Tittle;
-    touchgfx::Circle circle1;
-    touchgfx::PainterBW circle1Painter;
-    touchgfx::TextArea textArea1;
-
-private:
+    touchgfx::TextAreaWithOneWildcard FPS;
 
     /*
-     * Canvas Buffer Size
+     * Wildcard Buffers
      */
-    static const uint32_t CANVAS_BUFFER_SIZE = 1920;
-    uint8_t canvasBuffer[CANVAS_BUFFER_SIZE];
+    static const uint16_t FPS_SIZE = 4;
+    touchgfx::Unicode::UnicodeChar FPSBuffer[FPS_SIZE];
+
+private:
 
 };
 

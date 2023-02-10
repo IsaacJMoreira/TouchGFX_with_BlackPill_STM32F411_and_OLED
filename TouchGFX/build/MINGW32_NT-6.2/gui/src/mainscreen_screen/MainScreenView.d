@@ -49,7 +49,8 @@ build/MINGW32_NT-6.2/gui/src/mainscreen_screen/MainScreenView.o: \
  generated/gui_generated/include/gui_generated/containers/TopBarBase.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/Texts.hpp
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/Texts.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp
 
 gui/include/gui/mainscreen_screen/MainScreenView.hpp:
 
@@ -150,3 +151,5 @@ generated/gui_generated/include/gui_generated/containers/TopBarBase.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/Texts.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:

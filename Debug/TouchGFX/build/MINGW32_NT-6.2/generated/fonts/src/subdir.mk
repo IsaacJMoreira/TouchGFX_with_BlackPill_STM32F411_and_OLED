@@ -8,13 +8,16 @@ O_SRCS += \
 ../TouchGFX/build/MINGW32_NT-6.2/generated/fonts/src/ApplicationFontProvider.o \
 ../TouchGFX/build/MINGW32_NT-6.2/generated/fonts/src/CachedFont.o \
 ../TouchGFX/build/MINGW32_NT-6.2/generated/fonts/src/FontCache.o \
+../TouchGFX/build/MINGW32_NT-6.2/generated/fonts/src/Font_trebucbd_40_1bpp_0.o \
 ../TouchGFX/build/MINGW32_NT-6.2/generated/fonts/src/Font_verdana_10_1bpp_0.o \
 ../TouchGFX/build/MINGW32_NT-6.2/generated/fonts/src/Font_verdana_20_1bpp_0.o \
 ../TouchGFX/build/MINGW32_NT-6.2/generated/fonts/src/Font_verdana_40_1bpp_0.o \
 ../TouchGFX/build/MINGW32_NT-6.2/generated/fonts/src/GeneratedFont.o \
+../TouchGFX/build/MINGW32_NT-6.2/generated/fonts/src/Kerning_trebucbd_40_1bpp.o \
 ../TouchGFX/build/MINGW32_NT-6.2/generated/fonts/src/Kerning_verdana_10_1bpp.o \
 ../TouchGFX/build/MINGW32_NT-6.2/generated/fonts/src/Kerning_verdana_20_1bpp.o \
 ../TouchGFX/build/MINGW32_NT-6.2/generated/fonts/src/Kerning_verdana_40_1bpp.o \
+../TouchGFX/build/MINGW32_NT-6.2/generated/fonts/src/Table_trebucbd_40_1bpp.o \
 ../TouchGFX/build/MINGW32_NT-6.2/generated/fonts/src/Table_verdana_10_1bpp.o \
 ../TouchGFX/build/MINGW32_NT-6.2/generated/fonts/src/Table_verdana_20_1bpp.o \
 ../TouchGFX/build/MINGW32_NT-6.2/generated/fonts/src/Table_verdana_40_1bpp.o \

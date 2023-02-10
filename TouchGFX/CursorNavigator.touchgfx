@@ -3,7 +3,6 @@
     "Screens": [
       {
         "Name": "MainScreen",
-        "CanvasBufferSize": 1920,
         "Components": [
           {
             "Type": "CustomContainerInstance",
@@ -22,42 +21,29 @@
           {
             "Type": "TextArea",
             "Name": "Tittle",
+            "Y": 1,
             "Width": 128,
-            "Height": 16,
+            "Height": 15,
             "TextId": "__SingleUse_6PS8",
-            "TextRotation": "0",
-            "Color": {
-              "Red": 255,
-              "Green": 255,
-              "Blue": 255
-            }
-          },
-          {
-            "Type": "Circle",
-            "Name": "circle1",
-            "X": 48,
-            "Y": 22,
-            "Width": 32,
-            "Height": 32,
-            "CenterX": 16.0,
-            "CenterY": 16.0,
-            "Radius": 16.0,
-            "EndAngle": 360.0,
-            "CapPrecision": "Butt"
+            "TextRotation": "0"
           },
           {
             "Type": "TextArea",
-            "Name": "textArea1",
-            "X": 57,
-            "Y": 24,
-            "Width": 15,
-            "Height": 28,
-            "TextId": "__SingleUse_GJ31",
+            "Name": "FPS",
+            "Y": 16,
+            "Width": 128,
+            "Height": 48,
+            "TextId": "__SingleUse_WK2R",
             "TextRotation": "0",
             "Color": {
               "Red": 255,
               "Green": 255,
               "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "FPSwildcard",
+              "UseBuffer": true,
+              "BufferSize": 4
             }
           }
         ],
@@ -74,12 +60,7 @@
             "Type": "Box",
             "Name": "BackGround",
             "Width": 128,
-            "Height": 64,
-            "Color": {
-              "Red": 255,
-              "Green": 255,
-              "Blue": 255
-            }
+            "Height": 64
           }
         ],
         "Interactions": []
@@ -93,7 +74,12 @@
             "Type": "Box",
             "Name": "TopBar",
             "Width": 128,
-            "Height": 16
+            "Height": 16,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
           }
         ],
         "Interactions": []

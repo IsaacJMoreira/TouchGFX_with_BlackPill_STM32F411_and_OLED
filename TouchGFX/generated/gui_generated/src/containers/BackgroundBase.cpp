@@ -9,7 +9,7 @@ BackgroundBase::BackgroundBase()
     setWidth(128);
     setHeight(64);
     BackGround.setPosition(0, 0, 128, 64);
-    BackGround.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
+    BackGround.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     add(BackGround);
 }
 

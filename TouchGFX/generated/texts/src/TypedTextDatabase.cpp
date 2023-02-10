@@ -5,14 +5,16 @@
 #include <fonts/GeneratedFont.hpp>
 #include <texts/TypedTextDatabase.hpp>
 
-extern touchgfx::GeneratedFont& getFont_verdana_20_1bpp();
+extern touchgfx::GeneratedFont& getFont_ChicagoFLF_20_1bpp();
 extern touchgfx::GeneratedFont& getFont_verdana_40_1bpp();
-extern touchgfx::GeneratedFont& getFont_verdana_10_1bpp();
+extern touchgfx::GeneratedFont& getFont_ChicagoFLF_11_1bpp();
+extern touchgfx::GeneratedFont& getFont_trebucbd_40_1bpp();
 
 const touchgfx::Font* touchgfx_fonts[] = {
-    &(getFont_verdana_20_1bpp()),
+    &(getFont_ChicagoFLF_20_1bpp()),
     &(getFont_verdana_40_1bpp()),
-    &(getFont_verdana_10_1bpp())
+    &(getFont_ChicagoFLF_11_1bpp()),
+    &(getFont_trebucbd_40_1bpp())
 };
 
 extern const touchgfx::TypedText::TypedTextData typedText_database_DEFAULT[];
@@ -20,7 +22,8 @@ extern const touchgfx::TypedText::TypedTextData* const typedTextDatabaseArray[];
 
 TEXT_LOCATION_FLASH_PRAGMA
 const touchgfx::TypedText::TypedTextData typedText_database_DEFAULT[] TEXT_LOCATION_FLASH_ATTRIBUTE = {
-    { 0, touchgfx::CENTER, touchgfx::TEXT_DIRECTION_LTR },
+    { 2, touchgfx::LEFT, touchgfx::TEXT_DIRECTION_LTR },
+    { 3, touchgfx::CENTER, touchgfx::TEXT_DIRECTION_LTR },
     { 2, touchgfx::CENTER, touchgfx::TEXT_DIRECTION_LTR }
 };
 
@@ -58,13 +61,16 @@ void resetFont(touchgfx::FontId fontId)
     switch (fontId)
     {
     case 0:
-        touchgfx_fonts[0] = &(getFont_verdana_20_1bpp());
+        touchgfx_fonts[0] = &(getFont_ChicagoFLF_20_1bpp());
         break;
     case 1:
         touchgfx_fonts[1] = &(getFont_verdana_40_1bpp());
         break;
     case 2:
-        touchgfx_fonts[2] = &(getFont_verdana_10_1bpp());
+        touchgfx_fonts[2] = &(getFont_ChicagoFLF_11_1bpp());
+        break;
+    case 3:
+        touchgfx_fonts[3] = &(getFont_trebucbd_40_1bpp());
         break;
     }
 }

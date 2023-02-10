@@ -9,7 +9,7 @@ TopBarBase::TopBarBase()
     setWidth(128);
     setHeight(16);
     TopBar.setPosition(0, 0, 128, 16);
-    TopBar.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    TopBar.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
     add(TopBar);
 }
 

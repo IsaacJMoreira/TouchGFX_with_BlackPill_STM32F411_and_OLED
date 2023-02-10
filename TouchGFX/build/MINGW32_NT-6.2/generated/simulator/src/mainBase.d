@@ -78,6 +78,7 @@ build/MINGW32_NT-6.2/generated/simulator/src/mainBase.o: \
  gui/include/gui/containers/TopBar.hpp \
  generated/gui_generated/include/gui_generated/containers/TopBarBase.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp \
  ../Middlewares/ST/touchgfx/framework/include/platform/driver/lcd/LCD1bpp.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/Color.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/lcd/LCD1DebugPrinter.hpp
@@ -237,6 +238,8 @@ gui/include/gui/containers/TopBar.hpp:
 generated/gui_generated/include/gui_generated/containers/TopBarBase.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/platform/driver/lcd/LCD1bpp.hpp:
 

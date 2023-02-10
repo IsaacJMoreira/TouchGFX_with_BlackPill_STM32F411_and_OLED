@@ -206,10 +206,11 @@ void TIM3_IRQHandler(void)
 {
   /* USER CODE BEGIN TIM3_IRQn 0 */
 
+  extern void touchgfxSignalVSync(void);//We declare this thing here...
   /* USER CODE END TIM3_IRQn 0 */
   HAL_TIM_IRQHandler(&htim3);
   /* USER CODE BEGIN TIM3_IRQn 1 */
-  touchgfxSignalVSync();//in order to be called here
+  touchgfxSignalVSync();//...in order to be called here
   HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);//debug
 
   /* USER CODE END TIM3_IRQn 1 */

@@ -105,7 +105,7 @@ int main(void)
   ssd1306_Init();
   ssd1306_Fill(Black);
   ssd1306_SetCursor(2,2);
-    ssd1306_WriteString("GPIO Initialized!.", Font_6x8, White);
+    ssd1306_WriteString("GPIO Initialized!", Font_6x8, White);
     ssd1306_UpdateScreen();
     HAL_Delay(500);
   ssd1306_SetCursor(2,11);
@@ -127,6 +127,8 @@ int main(void)
      /* Starting Error */
      Error_Handler();
    }
+
+
 
   /* USER CODE END 2 */
 

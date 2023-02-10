@@ -6,17 +6,21 @@
   <Texts>
     <TextGroup Id="Group1" />
     <TextGroup Id="Unsorted">
-      <Text Id="__SingleUse_GJ31" Alignment="Center" TypographyId="Default">
-        <Translation Language="GB">1</Translation>
+      <Text Id="FPSwildcard" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_WK2R" Alignment="Center" TypographyId="FPS">
+        <Translation Language="GB">&lt;value&gt;</Translation>
       </Text>
       <Text Id="__SingleUse_6PS8" Alignment="Center" TypographyId="Small">
-        <Translation Language="GB">STM32F411 - BlackPill</Translation>
+        <Translation Language="GB">TouchGFX + BlackPill</Translation>
       </Text>
     </TextGroup>
   </Texts>
   <Typographies>
-    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Default" Font="ChicagoFLF.ttf" Size="20" Bpp="4" Direction="LTR" FallbackCharacter="?" />
     <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" Direction="LTR" FallbackCharacter="?" />
-    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="ChicagoFLF.ttf" Size="11" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="FPS" Font="trebucbd.ttf" Size="40" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
   </Typographies>
 </TextDatabase>
